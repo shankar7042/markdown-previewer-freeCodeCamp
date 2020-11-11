@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(151, 92, 206);
+  width: 90vw;
+  margin: auto;
+  margin-top: 2em;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.editor-pane > h3,
+.preview-pane > h3 {
+  color: white;
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#editor {
+  margin-right: 20px;
+}
+
+#editor,
+#preview {
+  min-height: 500px;
+  min-width: 500px;
+  background-color: rgb(238, 229, 229);
+  padding: 10px;
+}
+
+img {
+  min-width: 100%;
+}
